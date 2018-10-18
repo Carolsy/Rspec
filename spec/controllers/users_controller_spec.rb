@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe UsersController, type: :controller do
+
   describe "#index" do
     context "as a logged-in admin" do
       before do
